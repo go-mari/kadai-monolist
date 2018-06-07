@@ -3,7 +3,7 @@
     <div class="item">
       <div class="panel panel-default">
         <div class="panel-heading text-center">
-          <img src="<%= @item.imege_url %>" alt="">
+          <img src="<%= @item.image_url %>" alt="">
         </div>
         <div class="panel-body">
           <p class="item-title"><%= @item.name %></p>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <p class="text-center"><%= link_to '楽天詳細ページ, @item.url, target: '_blank' %></p>
+    <p class="text-center"><%= link_to '楽天詳細ページ', @item.url, target: '_blank' %></p>
   </div>
 </div>
 
